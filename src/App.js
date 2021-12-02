@@ -1,9 +1,8 @@
 import React from 'react';
-import DayOne from './page1'
+import DayOne from './page1.ts'
 
-import { Router, Routes, Route, Link, Outlet, BrowserRouter } from "react-router-dom";
+import {Routes, Route, Link, Outlet, BrowserRouter } from "react-router-dom";
 
-import logo from './logo.svg';
 import './App.css';
 
 
@@ -24,7 +23,7 @@ render (){
 }
 
 
-  class LinkSelection extends React.Component {
+class LinkSelection extends React.Component {
 
 
     render (){
@@ -39,9 +38,9 @@ render (){
         </>
         );
       }
-    }
+}
 
-    class Home extends React.Component {
+class Home extends React.Component {
 
 
       render (){
@@ -58,7 +57,7 @@ render (){
     
           );
         }
-      }
+}
     
   
 
@@ -72,9 +71,9 @@ class AdventOfCode extends React.Component {
 
       <>    
       <BrowserRouter>
-      <LinkSelection /> 
       <Header />
       <Home />
+      <LinkSelection /> 
       </BrowserRouter>  
       </>
 

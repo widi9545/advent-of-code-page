@@ -6,7 +6,7 @@ class DayOne extends React.Component {
     render (){
       return (
         <div>
-            <p> hello! fake test</p>
+            <p> hello, fake test</p>
         </div>
         );
       }
