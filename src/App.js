@@ -5,10 +5,6 @@ import {Routes, Route, Link, Outlet, BrowserRouter } from "react-router-dom";
 
 import './App.css';
 
-
-
-
-
 class Header extends React.Component {
 
 
@@ -32,6 +28,7 @@ class LinkSelection extends React.Component {
         <div className="body-test">
           <Routes>
             <Route path='/DayOne' element={<DayOne />} />
+            <Route path='/page1/input.txt' element={<Outlet />} />
           </Routes>
   
         </div>

@@ -1,18 +1,16 @@
 import React from 'react';
 
-
 class DayOne extends React.Component {
 
   helloWorld(){
-    let message:string = 'Hello world!'
+    let message:string = 'Hello world!'    
+
     return message;
   }
 
-
-
-
     render (){
-      const testMessage = this.helloWorld();
+
+      let testMessage = this.helloWorld();
       return (
         <div>
             <p> {testMessage}</p>
@@ -20,5 +18,6 @@ class DayOne extends React.Component {
         );
       }
     }
+
 
 export default DayOne 
