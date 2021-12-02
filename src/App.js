@@ -1,5 +1,7 @@
 import React from 'react';
 import DayOne from './page1'
+import DayTwo from './page2'
+
 
 import {Routes, Route, Link, Outlet, BrowserRouter } from "react-router-dom";
 
@@ -28,6 +30,7 @@ class LinkSelection extends React.Component {
         <div className="body-test">
           <Routes>
             <Route path='/DayOne' element={<DayOne />} />
+            <Route path='/DayTwo' element={<DayTwo />} />
           </Routes>
   
         </div>

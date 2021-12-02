@@ -7,6 +7,20 @@
   pointer-events: none;
 }
 
+.Input-File {
+  display: none;
+  margin-top:3vh;
+}
+
+.Input-File-Button {
+  margin-top:3vh;
+}
+
+.Calculate-Button {
+  display: none;
+  margin-top:3vh;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
