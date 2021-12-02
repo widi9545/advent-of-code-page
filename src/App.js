@@ -28,7 +28,6 @@ class LinkSelection extends React.Component {
         <div className="body-test">
           <Routes>
             <Route path='/DayOne' element={<DayOne />} />
-            <Route path='/page1/input.txt' element={<Outlet />} />
           </Routes>
   
         </div>
@@ -43,7 +42,6 @@ class Home extends React.Component {
       render (){
         return (
           <div>
-            <p> hello !</p>
             <li>
               <Link to="DayOne">DayOne</Link>
             </li>
