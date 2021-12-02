@@ -3,10 +3,19 @@ import React from 'react';
 
 class DayOne extends React.Component {
 
+  helloWorld(){
+    let message:string = 'Hello world!'
+    return message;
+  }
+
+
+
+
     render (){
+      const testMessage = this.helloWorld();
       return (
         <div>
-            <p> hello, fake test</p>
+            <p> {testMessage}</p>
         </div>
         );
       }

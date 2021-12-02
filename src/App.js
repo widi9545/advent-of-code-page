@@ -1,5 +1,5 @@
 import React from 'react';
-import DayOne from './page1.ts'
+import DayOne from './page1'
 
 import {Routes, Route, Link, Outlet, BrowserRouter } from "react-router-dom";
 
